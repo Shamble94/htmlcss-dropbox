@@ -53,15 +53,14 @@ body{
 .containerSmall{
     width: 700px;
     margin: auto;
-    border: 1px dashed black;
-    background-color: bisque;
+   
 }
 .gap{
     gap:10px
 }
 .col-33{
     width: calc(100% / 3 - 10px);
-    border: 1px dotted black;
+    
     
 }
 .col-100{
@@ -104,8 +103,11 @@ li{
 .justify-end{
     justify-content: flex-end
 }
+.padding-7-15{
+    padding: 7px 15px;
+}
 .padding{
-    padding: 15px
+    padding: 10px
 }
 img{
     max-width: 100%;
@@ -133,4 +135,21 @@ i{
 }
 .padding-top{
     padding-top: 50px;
+}
+.text-center{
+   justify-content: center;
+   align-items: center;
+}
+
+.border-solid{
+    border: 1px solid grey;
+}
+.text-grey{
+    color:lightgray
+}
+.padding-25{
+    padding:25px
+}
+hr{
+    width: 50px;
 }
