@@ -20,7 +20,10 @@ body{
 }
 .content{
     width: 100%;
-    display: flex;
+    display: flex; 
+}
+
+.align-center{
     align-items: center;
 }
 .col-50{
@@ -63,7 +66,7 @@ body{
 }
 .col-100{
     width: 100%;
-    border: 1px dotted black;
+    
    
 }
 .col-60{
@@ -108,14 +111,26 @@ img{
     max-width: 100%;
 }
 button{
-    padding: 5px 10px;
-    background-color: rgb(58, 2, 215);
+    padding: 10px 10px;
+    background-color: #0061FF;
     border-style: none;
     color: #fff;
 }
 h1{
-    font-size: 60px;
+    font-size: 50px;
 }
 .margin-top{
-    margin-top: 15px;
+    margin-top: 20px;
+}
+.margin-top-30{
+    margin-top: 30px;
+}
+.fontsize{
+    font-size: 15px;
+}
+i{
+    font-size: 40px
+}
+.padding-top{
+    padding-top: 50px;
 }
