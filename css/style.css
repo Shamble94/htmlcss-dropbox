@@ -18,6 +18,9 @@ h1{
 .fontsize{
     font-size: 14px;
 }
+.fontsize-25{
+    font-size: 25px;
+}
 i{
     font-size: 40px
 }
@@ -34,13 +37,14 @@ i{
 .containerHead{
     max-width: 100%;
     margin: 0 auto; 
+    
 }
 .containerMid{
-    width: 900px;
+    max-width: 900px;
     margin: auto; 
 }
 .containerSmall{
-    width: 750px;
+    max-width: 750px;
     margin: auto;
 }
 
@@ -72,6 +76,7 @@ i{
 
 .bg-cyan{
     background-color:#B4D0E7;
+    
 }
 
 /* COLONNE */
@@ -239,4 +244,3 @@ hr{
     color: white;
     border-style: none;
 }
-
