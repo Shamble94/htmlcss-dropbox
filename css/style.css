@@ -4,92 +4,116 @@
     box-sizing: border-box;
 }
 
+/* IMMAGINI */
+
+img{
+    width: 100%;
+}
+
+/* SIZE E STILE TESTO*/
+
+h1{
+    font-size: 50px;
+}
+.fontsize{
+    font-size: 14px;
+}
+i{
+    font-size: 40px
+}
+.icon-size{
+    font-size: 15px
+}
+.text-grey{
+    color:lightgray
+}
+
+
+/* CONTAINER */
+
 .containerHead{
     max-width: 100%;
-    margin: 0 auto;
-   
+    margin: 0 auto; 
 }
+.containerMid{
+    width: 900px;
+    margin: auto; 
+}
+.containerSmall{
+    width: 750px;
+    margin: auto;
+}
+
+/* ROW */
+
 .row{
     display: flex;
     flex-wrap: wrap;
-    width: 100%  
+    width: 100%;
 
 }
+/* CONTENT */
+
 .content{
     width: 100%;
     display: flex; 
 }
+.content-noflex{
+    width: 100%;
+}
+/* ALIGN */
 
 .align-center{
     align-items: center;
 }
-.col-50{
-    width: 50%;
- 
-}
+
 
 /* SECONDO SETTORE */
+
 .bg-cyan{
     background-color:#B4D0E7;
 }
-.containerMid{
-    width: 900px;
-    margin: auto;
-    
+
+/* COLONNE */
+
+.col-16{
+    width: calc(100% / 6);
 }
 .col-30{
     width: 30%;
 }
-.col-35{
-    width: 35%;
+.col-33{
+    width: calc(100% / 3 - 10px); 
+}
+ 
+.col-40{
+    width: 40%;
+}
+.col-50{
+    width: 50%;
     
 }
-.col-65{
-    width: 65%;
+.col-60{
+    width: 60%; 
     
 }
+
 .col-70{
     width: 70%;
 }
-
-/* CONTAINER SMALL */
-.containerSmall{
-    width: 750px;
-    margin: auto;
-   
-}
-
-.col-33{
-    width: calc(100% / 3 - 10px);
-    
-    
-}
 .col-100{
-    width: 100%;
-    
-   
+    width: 100%;  
 }
-.col-60{
-    width: 60%;
-    
-   
-}
-.col-40{
-    width: 40%;
-    
-    
-}
+
+
+/* ALTEZZA */
 
 .height{
     height: 500px
 }
 
-.col-16{
-    width: calc(100% / 6);
-}
-.bg-green{
-    background-color: green;
-}
+/* STILE LISTA */
+
 ul{
     display: flex;
     align-items: center;
@@ -99,74 +123,79 @@ li{
     list-style-type: none ;
     
 }
+
+/* POSIZIONAMENTO TESTO/OGGETTI */
+
 .justify-end{
     justify-content: flex-end
 }
+.text-center{
+    justify-content: center;
+    align-items: center;
+}
+ .space-between{
+    justify-content: space-between;
+}
+
+
+/* PADDING */
+
 .padding-7-15{
     padding: 7px 15px;
 }
-.padding{
-    padding: 10px;
-}
-img{
-    max-width: 100%;
+.padding-10-15{
+    padding: 10px 15px;
 }
 
-h1{
-    font-size: 50px;
+.padding-10{
+    padding: 10px;
 }
+.padding-top{
+    padding-top: 50px;
+}
+.padding-25{
+    padding:25px
+}
+
+/* MARGINI */
+
 .margin-top{
+    margin-top: 20px;
+}
+
+.margin-top-10{
+    margin-top: 10px
+}
+.margin-top-20{
     margin-top: 20px;
 }
 .margin-top-30{
     margin-top: 30px;
 }
-.fontsize{
-    font-size: 14px;
+.margin-top-50{
+    margin-top: 50px;
 }
-i{
-    font-size: 40px
+.margin-bottom{
+    margin-bottom:20px;
 }
-.padding-top{
-    padding-top: 50px;
-}
-.text-center{
-   justify-content: center;
-   align-items: center;
-}
-
-.border-solid{
-    border: 1px solid grey;
-}
-.text-grey{
-    color:lightgray
-}
-.padding-25{
-    padding:25px
-}
-hr{
-    width: 50px;
-    color:lightgrey;
-}
-.display-flex{
-    display:flex;
-    flex-wrap: wrap;
+.margin-left{
+    margin-left: 30px;
 }
 h2{
     margin-bottom: 50px;
 }
-.height-750{
-    height: 750px;
-}
-.space-between{
-    justify-content: space-between;
+
+/* STILE BORDO */
+
+.border-solid{
+    border: 1px solid grey;
 }
 
-.margin-top-20{
-    margin-top: 20px;
-}
-.margin-top-10{
-    margin-top: 10px
+/* STILE HR */
+
+hr{
+    width: 50px;
+    color:lightgrey;
 }
 .border-solid-notop{
     border-bottom: 1px solid grey;
@@ -175,29 +204,32 @@ h2{
 }
 
 .border-notop-center{
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
 }
 .border-no-center{
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
 }
-.icon-size{
-    font-size: 15px
+/* ASSEGNAZIONE FLEX-WRAP */
+
+.flex-wrap{
+    flex-wrap: wrap;
 }
-.margin-top-50{
-    margin-top: 50px;
+
+/* ALTEZZA COLONNA */
+
+.height-750{
+    height: 750px;
 }
-.content-noflex{
-    width: 100%;
-    margin: auto
-}
-.line-heighst{
-    line-height: 25px;
-}
+
+/* STILE CHECK */
+
 .check{
     color: green
 }
+/* COLORE SFONDO */
+
 .bg-white{
     background-color: #fff;
     
@@ -208,6 +240,3 @@ h2{
     border-style: none;
 }
 
-.padding-10-15{
-    padding: 10px 15px;
-}

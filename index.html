@@ -1,244 +1,378 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
     <header>
+        <!-- CONTAINER HEADER -->
         <div class="containerHead">
             <div class="row">
+                <!-- COLONNA 50% -->
                 <div class="col-50">
-                    <div class="content padding align-center">
+                    <div class="content padding-10 align-center">
+                        <!-- LISTA -->
                         <ul>
                             <li><img src="./img/logo-small.png" alt=""></li>
                             <li>Perch&egrave; Dropbox</li>
                             <li>Funzioni</li>
                             <li>Piani e Prezzi</li>
-
-                    </ul>
+                        </ul>
                     </div>
                 </div>
-                    <div class="col-50">
-                        <div class="content padding justify-end align-center">
-                            <ul>
-                                <li>Supporto</li>
-                                <li>Contatta l'ufficio vendite</li>
-                                <li>Accedi</li>
-                                <li><input type="button" value="Inizia" class="padding-7-15 bg-blue"></li>
-                            </ul>
-                        
-                        </div>
+                <!-- COLONNA50 -->
+                <div class="col-50">
+                    <div class="content padding-10 justify-end align-center">
+                        <!-- LISTA -->
+                        <ul>
+                            <li>Supporto</li>
+                            <li>Contatta l'ufficio vendite</li>
+                            <li>Accedi</li>
+                            <li><input type="button" value="Inizia" class="padding-7-15 bg-blue"></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
+    <!-- FINE HEADER -->
     </header>
 
-        <!-- CONTAINER MEDIO -->
-        <div class="bg-cyan">
-            <div class="containerMid">
-                
-                <div class="row">
-                    <div class="col-100 padding-top">
-                        <div class="content">
-                            <h1>Tutto ciò che ti serve per il tuo lavoro in un unico posto</h1>
-                        </div>
+    <!-- CONTAINER MEDIO -->
+    <div class="bg-cyan">
+        <!-- CONTAINER MID -->
+        <div class="containerMid">
+            <div class="row">
+                <!-- COLONNA 100% -->
+                <div class="col-100 padding-top">
+                    <div class="content">
+                        <h1>Tutto ciò che ti serve per il tuo lavoro in un unico posto</h1>
                     </div>
-                    
-                        
-                        <div class="col-35"> 
-                            <div class="content margin-top ">
-                                Finalmente tutti i tuoi strumenti, contenuti e collaboratori sonoo accessibili dallo stesso posto. Dropbox Business è piu di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
-                            </div>
-
-                            <div class="margin-top">
-                                <input type="button" value="Inizia la tua prova gratuita" class="padding-10-15 bg-blue margin-top-30">
-
-                            </div>
-                            <div class="margin-top">
-                               <span> Annulla in qualsiasi momento</span>
-                            </div>
-                            <div class="margin-top-30">
-                                <span> <i class="fa-solid fa-arrow-down"></i></span>
-                            </div>
-                            
-                        </div>
-                        
-
-                        <div class="col-65">
-                            <div class="content margin-top">
-                                <img src="./img/jumbo.png" alt="">
-                            </div>
-                        </div>   
                 </div>
+
+                <!-- COLONNA 40 -->
+                <div class="col-40"> 
+                    <div class="content margin-top ">
+                         Finalmente tutti i tuoi strumenti, contenuti e collaboratori sonoo accessibili dallo stesso posto. Dropbox Business è piu di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
+                    </div>
+
+                    <!-- BOTTONE -->
+                    <div class="margin-top">
+                        <input type="button" value="Inizia la tua prova gratuita" class="padding-10-15 bg-blue margin-top-30">
+                    </div>
+
+                    <!-- SPAN ANNULLA -->
+                    <div class="margin-top">
+                        <span> Annulla in qualsiasi momento</span>
+                    </div>
+
+                    <!-- ARROW DOWN -->
+                    <div class="margin-top-30">
+                        <span> <i class="fa-solid fa-arrow-down"></i></span>
+                    </div>        
+                </div>
+
+                <!-- COLONNA 60 -->
+                <div class="col-60">
+                    <div class="content margin-top absolute">
+                        <img class="immagine" src="./img/jumbo.png" alt="">
+                    </div>
+                </div>   
             </div>
         </div>
+    </div>
         
-        <!-- CONTAINER PICCOLO -->
-        <div class="containerSmall ">
-            <div class="row space-between">
-                <div class="col-100 margin-top-30">
-                        <h2>Trova il piano business che fa per te</h2>
-                        <div class="content ">
+    <!-- CONTAINER PICCOLO -->
+    <div class="containerSmall ">
+        <div class="row space-between">
 
-                            <div><input type="radio" name="Fatturazione"> Fatturazione mensile</div>
-                            <div><input type="radio" name="Fatturazione"> Fatturazione annuale </div>
-                        
-                        </div>
+            <!-- COLONNA 100 -->
+            <div class="col-100">
+                <h2 class="margin-top-50">Trova il piano business che fa per te</h2>
+
+                <!-- CONTENT -->
+                <div class="content fontsize ">
+
+                    <!-- CHECKBOX FATTURAZIONE -->
+                    <div><input type="radio" name="Fatturazione"> Fatturazione mensile</div>
+                    <div class="margin-left"><input type="radio" name="Fatturazione"> Fatturazione annuale</div>                                               
+                </div>
+            </div>
+
+            <!-- COLONNA 33 -->
+            <div class="col-33  ">
+
+                <!-- CONTENT -->
+                 <div class="content  text-center border-solid margin-top-30">
+                    <i class="fa-solid fa-user fontsize padding-7-15 "></i>Singolo
                 </div>
 
-                    
-                    <div class="col-33 margin-top-30 ">
+                <!-- PIANO PROFESSIONAL -->
+                <div class="content-noflex padding-25 height-750 border-solid-notop fontsize">       
+                    <h4>Professional</h4>
 
-                        <div class="content  text-center border-solid">
-                            <i class="fa-solid fa-user fontsize padding-7-15 "></i>Singolo
-                        </div>
-                             <div class="content-noflex padding-25 height-750 border-solid-notop fontsize">
-                                
-                                    <h4>Professional</h4>
-                                        <h5 class="margin-top-20">&euro; 12.00</h5>
-                                    
-                                    <div class="text-grey margin-top-10">/mese</div>
-                                        <ul class="display-flex">
-                                            <li class="margin-top-30"> <i class="fa-solid fa-user icon-size"></i> 1 Utente</li>
-                                            <li><i class="fa-solid fa-folder icon-size"></i> 5  tera di spazio di archiviazione sicuro</li>
-                                            <li><i class="fa-solid fa-share-nodes icon-size"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
-                                        </ul>
-                                        <input type="button" value="Prova gratis per 30 giorni" class="padding-10-15 bg-blue margin-top-30">
-                                    
-                                    <div class="margin-top-30">oppure <a href=""> acquista ora</a>
-                                    </div>
-                                <hr class="margin-top-30">
-                            
-                            <div class="margin-top-30"><strong>Punti salienti del piano</strong></div>
-                    
-                                <ul class="display-flex margin-top-20">
-                                    <li> <span class="check">&check;</span> Invia file fino a 100gb con Dropbox transfer</li>
-                                    <li> <span class="check">&check;</span> Cartelle offline su dispositivi mobili</li>
-                                </ul>
-                                
-                            </div>
-                                
+                    <!-- COSTO -->
+                    <h5 class="margin-top-20">&euro; 12.00</h5>
 
+                    <!-- DURATA ABBONAMENTO -->
+                    <div class="text-grey margin-top-10">/mese</div>
+
+                    <!-- LISTA -->
+                    <ul class=" flex-wrap">
+                        <li class="margin-top-30"> <i class="fa-solid fa-user icon-size"></i> 1 Utente</li>
+                        <li><i class="fa-solid fa-folder icon-size"></i> 5  tera di spazio di archiviazione sicuro</li>
+                        <li><i class="fa-solid fa-share-nodes icon-size"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                    </ul>
+                    
+                    <!-- BOTTONE PROVA GRATIS -->
+                    <input type="button" value="Prova gratis per 30 giorni" class="padding-10-15 bg-blue margin-top-30">
+
+                    <!-- LINK ACQUISTA ORA -->
+                    <div class="margin-top-30">oppure 
+                        <a href=""> acquista ora</a>
                     </div>
-                    
-                    <div class="col-33 margin-top-30">
-                            <div class="content text-center border-solid">
-                            <i class="fa-solid fa-users fontsize padding-7-15 "></i>Team
-                            </div>
-                        <div class="content">
-                            <div class="padding-25  height-750 border-solid-notop fontsize">
-                                <h4>Advanced</h4>
-                                    <h5 class="margin-top-20">&euro; 18.00</h5>
-                                    
-                                    <div class="text-grey margin-top-10">/utente/mese</div>
-                                        <ul class="display-flex">
-                                            <li class="margin-top-30"> 
-                                                <i class="fa-solid fa-user icon-size"></i> 3 o piu utenti
-                                            </li>
 
-                                            <li>
-                                                <i class="fa-solid fa-folder icon-size"></i> Tutto lo spazio di cui ha bisogno il tuo team
-                                            </li>
-                                            <li>
-                                                <i class="fa-solid fa-share-nodes icon-size"></i> Sofisticate funzioni di controllo e per tenere al sicuro tuti i  file del tuop team
-                                            </li>
-                                        </ul>
-                                        <input type="button" value="Prova gratis per 30 giorni" class="padding-10-15 bg-blue margin-top-30">
-                            <div class="margin-top-30">oppure <a href=""> acquista ora</a>
-                            </div>
-                                <hr class="margin-top-30">
-                            
-                            <div class="margin-top-30"><strong>Punti salienti del piano</strong></div>
-                            <ul class="display-flex margin-top-20">
+                    <!-- HR -->
+                    <hr class="margin-top-30">
+                    
+                    <!-- PUNTI SALIENTI DELL'ABBONAMENTO -->
+                    <div class="margin-top-30"><strong>Punti salienti del piano</strong></div>
+
+                    <!-- LISTA -->
+                    <ul class="flex-wrap margin-top-20">
+                        <li> <span class="check">&check;</span> Invia file fino a 100gb con Dropbox transfer</li>
+                        <li> <span class="check">&check;</span> Cartelle offline su dispositivi mobili</li>
+                    </ul>  
+                </div>                             
+            </div>
+
+            <!-- COLONNA 33 -->       
+            <div class="col-33">
+
+                <!-- PIANO TEAM -->
+                <div class="content text-center border-solid  margin-top-30">
+                    <i class="fa-solid fa-users fontsize padding-7-15 "></i>Team
+                </div>
+                <div class="content">
+                    <div class="padding-25  height-750 border-solid-notop fontsize">
+                        <h4>Advanced</h4>
+
+                        <!-- COSTO ABBONAMENTO -->
+                        <h5 class="margin-top-20">&euro; 18.00</h5>
+
+                        <!-- DURATA ABBONAMENTO -->
+                        <div class="text-grey margin-top-10">/utente/mese</div>
+
+                            <!-- LISTA -->
+                            <ul class="flex-wrap">
+                                <li class="margin-top-30"><i class="fa-solid fa-user icon-size"></i> 3 o piu utenti</li>                                                                 
+                                <li><i class="fa-solid fa-folder icon-size"></i> Tutto lo spazio di cui ha bisogno il tuo team</li>                                                                                          
+                                <li><i class="fa-solid fa-share-nodes icon-size"></i> Sofisticate funzioni di controllo e per tenere al sicuro tuti i  file del tuo team</li>
+                            </ul>
+
+                        <!-- BOTTONE PROVA GRATIS -->
+                        <input type="button" value="Prova gratis per 30 giorni" class="padding-10-15 bg-blue margin-top-30">
+                        <div class="margin-top-30">oppure <a href=""> acquista ora</a></div>
+
+                        <!-- HR -->
+                        <hr class="margin-top-30">
+
+                        <!-- PUNTI SALIENT -->
+                        <div class="margin-top-30"><strong>Punti salienti del piano</strong></div>
+
+                            <!-- LISTA -->
+                            <ul class="flex-wrap margin-top-20">
                                 <li><span class="check">&check;</span> Nessun limite di spazio per i file</li>
                                 <li><span class="check">&check;</span> Cartelle offline su dispositivi mobili</li>
                                 <li><span class="check">&check;</span> Risparmio del 50% rispetto alle iscrizioni singole</li>
                                 <li><span class="check">&check;</span> Possibilit&aacute; di inserire nuovi membri del team</li>
                                 <li><span class="check">&check;</span> Gestione dei permessi in base ai ruoli</li>
-                            </ul>
-                            
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-33 margin-top-30">
-                        <div class="content  text-center border-solid">
-                            <i class="fa-solid fa-building fontsize padding-7-15 "></i>Azienda
-                        </div>
-                        <div class="content">
-                            <div class="padding-25 height-750 border-solid-notop fontsize">
-                                <h4>Enterprise</h4>
-                                    <h5 class="margin-top-20">Contattaci</h5>
-                
-                                    <div class="text-grey margin-top-10">-</div>
-                                        <ul class="display-flex">
-                                            <li  class="margin-top-30"> <i class="fa-solid fa-user icon-size "></i> 10 o piu utenti</li>
-                                            <li><i class="fa-solid fa-folder icon-size"></i> Soluzioni personalizzabili per la tua azienda</li>
-                                            <li><i class="fa-solid fa-share-nodes icon-size"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
-                                        </ul>
-                                        <input type="button" value="Prova gratis per 30 giorni" class="padding-10-15 bg-blue margin-top-30">
-
-                                    <div class="margin-top-30">
-                                        oppure <a href=""> acquista ora</a>
-                                    </div>
-
-                                <hr class="margin-top-30">
-                            
-                            <div class="margin-top-30"><strong>Punti salienti del piano</strong></div>
-                    
-                            <ul class="display-flex margin-top-20">
-                                <li> <span class="check">&check;</span> Cartelle offline su dispositivi mobili</li>
-                                <li> <span class="check">&check;</span> Servizio assistenza 24/h</li>
-                                <li> <span class="check">&check;</span> Possibilita di personalizzazione totale</li>
-                            </ul>
-                            </div>
-                        </div>  
-                    </div>
-               
-                    <div class="col-100 ">
-                        <div class="content  text-center border-solid margin-top-30  fontsize padding-7-15">
-                            <i class="fa-solid fa-building icon-size"></i>Team
-                        </div>
-                    </div>
-                        
-                        <div class="col-70  ">
-                            <div class=" padding-25 fontsize border-no-center">
-                                <h2>Enterprise</h2>
-                                <h4 class="margin-top-10">Contatta l'ufficio vendita per i prezzi</h4>
-                                <div class="margin-top-30">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</div>
-                            </div>
-                        </div>
-                        <div class="col-30 border-notop-center ">
-                            <div class="content justify-end padding-25 ">
-                                <input type="button" value="Contatta l'ufficio vendite" class="padding-10-15 bg-blue margin-top-30">
-                            </div>
-                        </div>
-                
-                    <div class="col-60  margin-top-50">
-                        <div class="content-noflex ">
-                            <img src="./img/partner.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-40 margin-top-50 "> 
-                        <div class="content-noflex padding-25 fontsize">
-                            <h2>Entra in contatto con un partener Dropbox</h2>
-                            <div>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui</div>
-                        </div>
-                        <div class="content-noflex margin-top-10 padding-25">
-
-                            <input type="button" value="Trova un partner" class="padding-7-15 bg-white ">
-                        </div>
-                        
-                    </div>
+                            </ul>                        
+                     </div>
+                </div>
             </div>
-        </div>
+
+            <!-- COLONNA 33 -->
+            <div class="col-33 ">
+                
+                <!-- PIANO AZIENDALE -->
+                <div class="content  text-center border-solid margin-top-30">
+                    <i class="fa-solid fa-building fontsize padding-7-15 "></i>Azienda
+                </div>
+
+                <!-- CONTENT -->
+                <div class="content">
+                    <div class="padding-25 height-750 border-solid-notop fontsize">
+                        <h4>Enterprise</h4>
+
+                        <!-- PREZZO -->
+                        <h5 class="margin-top-20">Contattaci</h5>
+
+                        <!-- DURATA ABBONAMENTO -->   
+                        <div class="text-grey margin-top-10">-</div>
+
+                        <!-- LISTA -->
+                        <ul class="flex-wrap">
+                            <li  class="margin-top-30"> <i class="fa-solid fa-user icon-size "></i> 10 o piu utenti</li>
+                            <li><i class="fa-solid fa-folder icon-size"></i> Soluzioni personalizzabili per la tua azienda</li>
+                            <li><i class="fa-solid fa-share-nodes icon-size"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
+                        </ul>
+
+                        <!-- BOTTONE PROVA GRATIS -->
+                        <input type="button" value="Prova gratis per 30 giorni" class="padding-10-15 bg-blue margin-top-30">
+
+                        <!-- LINK ACQUISTA ORA -->
+                        <div class="margin-top-30">
+                            oppure <a href=""> acquista ora</a>
+                        </div>
+
+                        <!-- HR -->
+                        <hr class="margin-top-30">
+
+                        <!-- PUNTI SALIENTI -->               
+                        <div class="margin-top-30"><strong>Punti salienti del piano</strong></div>
+
+                        <!-- LISTA -->
+                        <ul class="flex-wrap margin-top-20">
+                            <li> <span class="check">&check;</span> Cartelle offline su dispositivi mobili</li>
+                            <li> <span class="check">&check;</span> Servizio assistenza 24/h</li>
+                            <li> <span class="check">&check;</span> Possibilita di personalizzazione totale</li>
+                        </ul>
+                    </div>
+                </div>  
+            </div>
+
+            <!-- COLONNA 100 -->
+            <div class="col-100 ">
+
+                <!-- TEAM -->
+                <div class="content  text-center border-solid margin-top-30  fontsize padding-7-15">
+                    <i class="fa-solid fa-building icon-size"></i>Team
+                </div>
+            </div>
+
+            <!-- COLONNA 70 -->
+            <div class="col-70">
+                <div class=" padding-25 fontsize border-no-center">
+
+                    <!-- SEZIONE ENTERPRISE -->
+                    <h2>Enterprise</h2>
+                    <h4 class="margin-top-10">Contatta l'ufficio vendita per i prezzi</h4>
+                    <div class="margin-top-30">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</div>
+                </div>
+            </div>
+
+            <!-- COLONNA 30 -->
+            <div class="col-30 border-notop-center ">
+                <div class="content justify-end padding-25 ">
+
+                    <!-- BOTTONE CONTATTA UFFICIO VENDITE -->
+                    <input type="button" value="Contatta l'ufficio vendite" class="padding-10-15 bg-blue">
+                </div>
+            </div>
+
+            <!-- COLONNA 60 -->
+            <div class="col-60  margin-top-50">
+                <div class="content-noflex ">
+                    <!-- IMMAGINE PARTNER -->
+                    <img src="./img/partner.png" alt="">
+                </div>
+            </div>
+
+            <!-- COLONNA 40 -->
+            <div class="col-40 margin-top-50 "> 
+                <div class="content-noflex padding-25 fontsize">
+                    <h2>Entra in contatto con un partener Dropbox</h2>
+                    <div>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui</div>
+                </div>
+
+                <!-- BOTTONE TROVA UN PARTNER CON SFONDO BIANCO -->
+                <div class="content-noflex margin-top-10 padding-25">
+                    <input type="button" value="Trova un partner" class="padding-7-15 bg-white">
+                </div>     
+            </div>
+
+            <!-- COLONNA 100 -->
+            <div class="col-100">
+                <div class="content margin-top-50">
+                    <!-- DROPBOX BUSINESS -->
+                    <h2>Esegui piu operazoni con Dropbox Business</h2>
+                </div>
+            </div>
+            <!-- SEZIONE FEATURES -->
+                <!-- COLONNA 33 -->
+                <div class="col-33">
+                    <div class="content-noflex margin-bottom">
+                        <!-- IMMAGINE FEATURE SWITCH TOOLS-->
+                        <img src="./img/business-feature-switching-tools.png" alt="">
+                        <h3 class="margin-bottom">Passa di meno da uno strumento all'altro</h3>
+                        <span>Porta a termine le attivia quotidiane con uno solo strumento.Crea,modifica e condividi contenuti cloud da Documenti, FOgli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da DropBox</span>
+                    </div>
+                </div>
+                
+                <!-- COLONNA 33 -->
+                <div class="col-33 ">
+                    <div class="content-noflex margin-bottom">
+                        <!-- IMMAGINE FEATURE SEND FILES -->
+                        <img src="./img/business-feature-send-files-it.png" alt="">
+                        <h3 class="margin-bottom">Passa di meno da uno strumento all'altro</h3>
+                        <span>Porta a termine le attivia quotidiane con uno solo strumento.Crea,modifica e condividi contenuti cloud da Documenti, FOgli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da DropBox</span>
+                    </div>
+                </div>
+
+                <!-- COLONNA 33 -->
+                <div class="col-33">
+                    <div class="content-noflex margin-bottom">
+                        <!-- IMMAGINE FEATURE COORDINATE -->
+                        <img src="./img/business-feature-coordinate-it.png" alt="">
+                        <h3 class="margin-bottom">Passa di meno da uno strumento all'altro</h3>
+                        <span>Porta a termine le attivia quotidiane con uno solo strumento.Crea,modifica e condividi contenuti cloud da Documenti, FOgli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da DropBox</span>                          
+                    </div>
+                </div>
+
+                <!-- COLONNA 33 -->
+                <div class="col-33">
+                    <div class="content-noflex ">
+                        <!-- IMMAGINE FEATURE INTEGRATIONS -->
+                        <img src="./img/business-feature-integrations-it.png" alt="">
+                        <h3 class="margin-bottom">Passa di meno da uno strumento all'altro</h3>
+                        <span>Porta a termine le attivia quotidiane con uno solo strumento.Crea,modifica e condividi contenuti cloud da Documenti, FOgli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da DropBox</span>
+                    </div>
+                </div>
+
+                <!-- COLONNA 33 -->
+                <div class="col-33">
+                    <div class="content-noflex ">
+                        <img src="./img/business-feature-multi-device.png" alt="">
+                        <h3 class="margin-bottom">Passa di meno da uno strumento all'altro</h3>
+                        <span>Porta a termine le attivia quotidiane con uno solo strumento.Crea,modifica e condividi contenuti cloud da Documenti, FOgli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da DropBox</span>
+                    </div>
+                </div>
+
+                <!-- COLONNA 33 -->
+                <div class="col-33">            
+                    <div class="content-noflex ">
+                        <!-- BUSINESS FEATURE SECURITY -->
+                        <img src="./img/business-feature-security.png" alt="">
+                        <h3 class="margin-bottom">Passa di meno da uno strumento all'altro</h3>
+                        <span>Porta a termine le attivia quotidiane con uno solo strumento.Crea,modifica e condividi contenuti cloud da Documenti, FOgli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da DropBox</span>
+                    </div>
+                </div>
+
+                <!-- NUMERO UTENTI DROPBOX -->                                                              
+                <div class="content margin-top-50">
+                    <h3>Piu di 500.000 team utilizzano <br> Dropbox Business</h3>
+                </div>
+
+                <!-- LINK SCOPRI DI PIU -->
+                <div class="margin-top-30">
+                    <a href="">Scopri di piu sui nostri clienti</a>       
+                </div>              
+        </div>     
+    </div>
             
        
     
