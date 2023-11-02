@@ -68,6 +68,7 @@ i{
 
 .content{
     width: 100%;
+    overflow: auto;
     display: flex; 
 }
 .content-noflex{
@@ -335,4 +336,7 @@ li{
 /* ALTEZZA UL FOOTER */
 .line-height{
     line-height: 30px;
+}
+.width100{
+    width: 100%;
 }
